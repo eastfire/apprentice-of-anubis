@@ -1,0 +1,24 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions" ],
+
+    "jsList" : [
+        "src/vendor/underscore-min.js",
+        "src/vendor/firebase.js",
+        "src/vendor/moment-with-locales.min.js",
+        "src/utils.js",
+        "src/resource.js",
+        "src/basic.js",
+        "src/intro.js",
+        "src/app.js",
+        "src/menu.js"
+    ]
+}
